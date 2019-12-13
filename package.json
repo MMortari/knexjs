@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "sucrase ./ -d ./dir --transforms typescript,imports"
+  },
+  "dependencies": {
+    "knex": "^0.20.4",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.2",
+    "sucrase": "^3.10.1"
+  }
+}
